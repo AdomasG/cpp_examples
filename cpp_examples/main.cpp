@@ -1,9 +1,10 @@
 #include <iostream>
+#include "returnnumbersum.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
-    return 0;
+    ReturnNumberSum return_number_sum;
+    cout << return_number_sum.sum()<< endl;
 }
